@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php require_once 'admin_panel/easyinsertdata/game.php'?>
 </body>
 </html>

@@ -1,1 +1,52 @@
 @import 'reset.css';
+
+
+.form {
+    padding: 20px 20px;
+    max-width: 760px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form__field {
+    display: flex;
+    min-width: 350px;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.form__field--textarea {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+.label--textarea {
+    margin: 5px 0;
+}
+
+.label {
+    flex-grow: 2;
+}
+
+.field {
+    flex-grow: 3;
+}
+
+.submit {
+    align-self: flex-end;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.title--form {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 0;
+}
