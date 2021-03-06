@@ -31,6 +31,10 @@ ECHO<<<END
                     <label for="addition" class="label">addition</label><input name="addition" type="text" id="addition" class="field">
                 </div>
                 <div class="form__field--textarea">
+                    <label for="short_description" class="label--textarea" >short description</label>
+                    <textarea name="short_description" id="short_description" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form__field--textarea">
                     <label for="description" class="label--textarea" >description</label>
                     <textarea name="description" id="description" cols="30" rows="10"></textarea>
                 </div>
