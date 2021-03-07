@@ -1,8 +1,20 @@
 <?php
 
+$games = $_SESSION['list_of_games'];
+
+$identifiers = array();
+$titles = array();
+array_push($identifiers,0);
+array_push($titles,"-----");
+
+foreach ($games as $game) {
+    array_push($identifiers,$game['id_game']);
+    array_push($titles,$game['title']);
+}
+
 ECHO<<<END
 
-<form action="admin_panel/easyinsertdata/backend/game.php" method="post" class="form">
+<form action="backend/game.php" method="post" class="form">
         <div class="wrapper">
             <fieldset>
                 <legend class="title--form">Information about game</legend>    
@@ -25,10 +37,28 @@ ECHO<<<END
                     <label for="cover" class="label">cover</label><input name="cover" type="text" id="cover" placeholder="url address" class="field">
                 </div>
                 <div class="form__field">
-                    <label for="continuation" class="label">continuation</label><input name="continuation" type="text" id="continuation" class="field">
+                    <label for="continuation" class="label">continuation</label>
+                    <select name="continuation" id="continuation" class="field">
+END;
+                    if(count($identifiers) == count($titles)) {
+                        for ($i = 0; $i<count($identifiers); $i++) {
+                            echo "<option value='$identifiers[$i]'>$titles[$i]</option>";
+                        }
+                    }
+ECHO<<<END
+                    </select> 
                 </div>
                 <div class="form__field">
-                    <label for="addition" class="label">addition</label><input name="addition" type="text" id="addition" class="field">
+                    <label for="addition" class="label">addition</label>
+                    <select name="addition" id="addition" class="field">
+END;
+                    if(count($identifiers) == count($titles)) {
+                        for ($i = 0; $i<count($identifiers); $i++) {
+                            echo "<option value='$identifiers[$i]'>$titles[$i]</option>";
+                        }
+                    }
+ECHO<<<END
+                    </select> 
                 </div>
                 <div class="form__field--textarea">
                     <label for="short_description" class="label--textarea" >short description</label>
