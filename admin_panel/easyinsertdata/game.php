@@ -7,16 +7,16 @@ ECHO<<<END
             <fieldset>
                 <legend class="title--form">Information about game</legend>    
                 <div class="form__field">
-                    <label for="title" class="label">title</label><input name="title" type="text" id="title" class="field">
+                    <label for="title" class="label"><span class="obligatory">title</span></label><input name="title" type="text" id="title" class="field">
                 </div>
                 <div class="form__field">
                     <label for="title_pl" class="label">title_pl</label><input name="title_pl" type="text" id="title_pl" class="field">
                 </div>
                 <div class="form__field">
-                    <label for="producer" class="label">producer</label><input name="producer" type="text" id="producer" class="field">
+                    <label for="producer" class="label"><span class="obligatory">producer</span></label><input name="producer" type="text" id="producer" class="field">
                 </div>
                 <div class="form__field">
-                    <label for="publisher" class="label">publisher</label><input name="publisher" type="text" id="publisher" class="field">
+                    <label for="publisher" class="label"><span class="obligatory">publisher</span></label><input name="publisher" type="text" id="publisher" class="field">
                 </div>
                 <div class="form__field">
                     <label for="genre" class="label">genre</label><input name="genre" type="text" id="genre" class="field">
@@ -43,16 +43,16 @@ ECHO<<<END
             <fieldset>
                 <legend class="title--form">Requirements</legend>
                 <div class="form__field">
-                    <label for="os" class="label">os</label><input name="os" type="text" id="os" class="field">
+                    <label for="os" class="label"><span class="obligatory">os</span></label><input name="os" type="text" id="os" class="field">
                 </div>
                 <div class="form__field">
-                    <label for="minimum_processor" class="label">minimum_processor</label><input name="minimum_processor" type="text" id="minimum_processor" class="field">
+                    <label for="minimum_processor" class="label"><span class="obligatory">minimum_processor</span></label><input name="minimum_processor" type="text" id="minimum_processor" class="field">
                 </div>
                 <div class="form__field">
-                    <label for="minimum_graphics" class="label">minimum_graphics</label><input name="minimum_graphics" type="text" id="minimum_graphics" class="field">
+                    <label for="minimum_graphics" class="label"><span class="obligatory">minimum_graphics</span></label><input name="minimum_graphics" type="text" id="minimum_graphics" class="field">
                 </div>
                 <div class="form__field">
-                    <label for="minimum_memory" class="label">minimum_memory</label><input name="minimum_memory" type="text" id="minimum_memory class="field"">
+                    <label for="minimum_memory" class="label"><span class="obligatory">minimum_memory</span></label><input name="minimum_memory" type="text" id="minimum_memory class="field"">
                 </div>
                 <div class="form__field">
                     <label for="recommended_processor" class="label">recommended_processor</label><input name="recommended_processor" type="text" id="recommended_processor" class="field">
