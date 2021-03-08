@@ -14,7 +14,7 @@ foreach ($games as $game) {
 
 ECHO<<<END
 
-<form action="backend/game.php" method="post" class="form">
+<form action="backend/game.php" method="post" class="form form--big">
         <div class="wrapper">
             <fieldset>
                 <legend class="title--form">Information about game</legend>    

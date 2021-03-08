@@ -31,9 +31,7 @@ try {
     echo $e->getMessage();
 }
 
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -46,5 +44,9 @@ try {
 </head>
 <body>
     <?php require_once 'forms/game.php' ?>
+    <?php require_once 'forms/screen.php' ?>
+    <?php require_once 'forms/trailer.php' ?>
+    <?php require_once 'forms/tag.php' ?>
+
 </body>
 </html>
