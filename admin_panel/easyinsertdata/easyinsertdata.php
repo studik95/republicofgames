@@ -47,6 +47,7 @@ try {
     <?php require_once 'forms/screen.php' ?>
     <?php require_once 'forms/trailer.php' ?>
     <?php require_once 'forms/tag.php' ?>
+    <?php require_once 'forms/premiere.php' ?>
 
 </body>
 </html>
