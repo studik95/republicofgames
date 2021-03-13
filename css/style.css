@@ -1,7 +1,7 @@
 @import 'reset.css';
 
 .container {
-    width: 1800px;
+    width: 2300px;
     display: flex;
     justify-content: space-around;
 }

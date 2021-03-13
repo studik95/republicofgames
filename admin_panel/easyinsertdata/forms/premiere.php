@@ -14,11 +14,11 @@ foreach ($games as $game) {
 
 ECHO<<<END
 
-    <form action="../backend/premiere.php" method="post" class="form form--small">
+    <form action="backend/premiere.php" method="post" class="form form--small">
         <legend class="title--form">Premiere</legend>
         <div class="form__field">
-            <label for="game_premiere" class="label"><span class="obligatory">game</span></label>
-            <select name="game_premiere" id="game_premiere" class="field">
+            <label for="game" class="label"><span class="obligatory">game</span></label>
+            <select name="game" id="game" class="field">
 END;
             if(count($identifiers) == count($titles)) {
                 for ($i = 0; $i<count($identifiers); $i++) {

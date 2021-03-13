@@ -54,6 +54,10 @@ try {
             <?php require_once 'forms/tag.php' ?>
             <?php require_once 'forms/premiere.php' ?>
         </div>
+        <div class="wrapper wrapper--column">
+            <?php require_once 'forms/addition.php' ?>
+            <?php require_once 'forms/continuation.php' ?>
+        </div>
     </div>
 
 </body>
