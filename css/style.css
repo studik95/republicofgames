@@ -1,5 +1,10 @@
 @import 'reset.css';
 
+.container {
+    width: 1800px;
+    display: flex;
+    justify-content: space-around;
+}
 
 .form {
     padding: 20px 20px;
@@ -18,7 +23,12 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.wrapper--column {
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .form__field {

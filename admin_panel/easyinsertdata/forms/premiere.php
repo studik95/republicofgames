@@ -20,13 +20,13 @@ ECHO<<<END
             <label for="game_premiere" class="label"><span class="obligatory">game</span></label>
             <select name="game_premiere" id="game_premiere" class="field">
 END;
-if(count($identifiers) == count($titles)) {
-    for ($i = 0; $i<count($identifiers); $i++) {
-        echo "<option value='$identifiers[$i]'>$titles[$i]</option>";
-    }
-}
+            if(count($identifiers) == count($titles)) {
+                for ($i = 0; $i<count($identifiers); $i++) {
+                    echo "<option value='$identifiers[$i]'>$titles[$i]</option>";
+                }
+            }
 ECHO<<<END
-                </select>
+            </select>
         </div>
         <div class="form__field">
             <label for="platform" class="label"><span class="obligatory">platform</span></label><input name="platform" id="platform" type="text" class="field">
@@ -36,8 +36,6 @@ ECHO<<<END
         </div>
         <input type="submit" value="Put data into database" class="submit">
     </form>
-
-
 
 END;
 

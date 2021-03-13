@@ -43,11 +43,18 @@ try {
     <title>Document</title>
 </head>
 <body>
-    <?php require_once 'forms/game.php' ?>
-    <?php require_once 'forms/screen.php' ?>
-    <?php require_once 'forms/trailer.php' ?>
-    <?php require_once 'forms/tag.php' ?>
-    <?php require_once 'forms/premiere.php' ?>
+
+    <div class="container">
+        <?php require_once 'forms/game.php' ?>
+        <div class="wrapper wrapper--column">
+            <?php require_once 'forms/screen.php' ?>
+            <?php require_once 'forms/trailer.php' ?>
+        </div>
+        <div class="wrapper wrapper--column">
+            <?php require_once 'forms/tag.php' ?>
+            <?php require_once 'forms/premiere.php' ?>
+        </div>
+    </div>
 
 </body>
 </html>
