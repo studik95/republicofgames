@@ -20,7 +20,7 @@ catch (PDOException $e) {
 
 ECHO<<<END
 
-<form action="backend/rating.php" method="post" class="form">
+<form action="backend/review.php" method="post" class="form">
     <legend class="title--form">Review</legend>
     <div class="form__field">
         <label for="account" class="label"><span class="obligatory">account</span></label>
