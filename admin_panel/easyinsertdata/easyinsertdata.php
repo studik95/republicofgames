@@ -44,7 +44,7 @@ try {
 </head>
 <body>
 
-    <div class="container">
+    <div class="container container--game">
         <?php require_once 'forms/game.php' ?>
         <div class="wrapper wrapper--column">
             <?php require_once 'forms/screen.php' ?>
@@ -57,6 +57,17 @@ try {
         <div class="wrapper wrapper--column">
             <?php require_once 'forms/addition.php' ?>
             <?php require_once 'forms/continuation.php' ?>
+        </div>
+    </div>
+    <div class="container container--user">
+        <div class="wrapper wrapper--column">
+            <?php require_once 'forms/user.php' ?>
+        </div>
+        <div class="wrapper wrapper--column">
+            <?php require_once 'forms/rating.php' ?>
+        </div>
+        <div class="wrapper wrapper--column">
+            <?php require_once 'forms/review.php' ?>
         </div>
     </div>
 
